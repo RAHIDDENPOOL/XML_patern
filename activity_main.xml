@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/canvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="389dp"
+        android:layout_height="304dp"
+        android:layout_marginLeft="-16dp"
+        android:layout_marginTop="-20dp"
+        android:background="#00000000"
+        app:layout_constraintLeft_toLeftOf="@+id/canvas"
+        app:layout_constraintTop_toTopOf="@+id/canvas" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="389dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/ic_rectangle_98rectanglebackground"
+        app:layout_constraintLeft_toLeftOf="@+id/canvas"
+        app:layout_constraintTop_toTopOf="@+id/canvas" />
+
+    <View
+        android:id="@+id/star_13"
+        android:layout_width="33dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/ic_star_13"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/background"
+        app:layout_constraintRight_toRightOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/star_12"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="218dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="154dp"
+        android:layout_marginBottom="211dp"
+        android:background="@drawable/ic_star_12"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/background"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintLeft_toLeftOf="@id/background"
+        app:layout_constraintRight_toRightOf="@id/background"
+        app:layout_constraintTop_toTopOf="@id/background"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <View
+        android:id="@+id/star_16"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginRight="262dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/ic_star_16"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/background"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="@id/background"
+        app:layout_constraintRight_toRightOf="@id/background"
+        app:layout_constraintTop_toTopOf="@id/background"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <View
+        android:id="@+id/star_14"
+        android:layout_width="19.17dp"
+        android:layout_height="19.17dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="314dp"
+        android:layout_marginBottom="222dp"
+        android:background="@drawable/ic_star_14"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/background"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintLeft_toLeftOf="@id/background"
+        app:layout_constraintRight_toRightOf="@id/background"
+        app:layout_constraintTop_toTopOf="@id/background"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <View
+        android:id="@+id/star_15"
+        android:layout_width="14.22dp"
+        android:layout_height="14.22dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginRight="328dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/ic_star_15"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/background"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintLeft_toLeftOf="@id/background"
+        app:layout_constraintRight_toRightOf="@id/background"
+        app:layout_constraintTop_toTopOf="@id/background"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="340dp"
+        android:layout_height="584dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:clipToOutline="true"
+        app:layout_constraintLeft_toLeftOf="@id/canvas"
+        app:layout_constraintTop_toTopOf="@id/canvas">
+
+        <android.support.constraint.Group
+            android:layout_width="290dp"
+            android:layout_height="129dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="387dp"
+            android:background="#00000000"
+            app:constraint_referenced_ids="textView,textView2,textView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="134dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="387dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Мальчик"
+            android:textAlignment="center"
+            android:textColor="#BA7171"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="290dp"
+            android:layout_height="17dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="499dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Вероятность мальчика 60%"
+            android:textColor="#313131"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="290dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="453dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Поздравляем! Скорее Всего у Вас будет Мальчик!"
+            android:textColor="#313131"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
